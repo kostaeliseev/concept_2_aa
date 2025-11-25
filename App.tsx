@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { Elephant } from './components/Elephant';
+import { WhatIsBridge } from './components/WhatIsBridge';
 import { Solution } from './components/Solution';
 import { Specs } from './components/Specs';
 import { Testimonial } from './components/Testimonial';
@@ -21,6 +22,7 @@ function App() {
       <main>
         <Hero onCtaClick={openModal} />
         <Elephant />
+        <WhatIsBridge />
         <Solution />
         <Specs />
         <Testimonial />
