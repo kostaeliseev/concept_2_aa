@@ -41,8 +41,8 @@ export const Elephant: React.FC = () => {
                  <div className="flex items-start gap-4">
                      <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-sm font-bold text-red-500 border border-red-100 shrink-0">1</div>
                      <div>
-                         <h4 className="font-bold text-charcoal">Compliance Risk</h4>
-                         <p className="text-sm text-gray-500 mt-1">Reg 187 requires you to address longevity needs.</p>
+                         <h4 className="font-bold text-charcoal">The National Mandate</h4>
+                         <p className="text-sm text-gray-500 mt-1">45+ States have adopted NAIC Model #275. You must address known risks.</p>
                      </div>
                  </div>
                  <div className="flex items-start gap-4">
@@ -55,8 +55,8 @@ export const Elephant: React.FC = () => {
                  <div className="flex items-start gap-4">
                      <div className="w-8 h-8 rounded-full bg-white flex items-center justify-center shadow-sm font-bold text-red-500 border border-red-100 shrink-0">3</div>
                      <div>
-                         <h4 className="font-bold text-charcoal">Revenue Risk</h4>
-                         <p className="text-sm text-gray-500 mt-1">Another advisor *will* solve this problem for them.</p>
+                         <h4 className="font-bold text-charcoal">The Trojan Horse Risk</h4>
+                         <p className="text-sm text-gray-500 mt-1">If you leave the LTC gap open, a competitor will use it to move your entire book.</p>
                      </div>
                  </div>
              </div>

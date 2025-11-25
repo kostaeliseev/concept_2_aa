@@ -7,16 +7,16 @@ interface HeroProps {
 
 export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
   
-  // Stats updated for the "Defensive" angle (Compliance, Speed, Retention)
+  // Stats updated for National Audience (NAIC/SEC)
   const stats = [
-    { value: "Reg 187", label: "Compliant" },
+    { value: "NAIC", label: "Best Interest Compliant" },
+    { value: "SEC", label: "Reg BI Aligned" },
     { value: "100%", label: "Asset Protection" },
-    { value: "Instant", label: "Approval" },
     { value: "Retain", label: "Your Clients" },
     // Duplicates for seamless loop
-    { value: "Reg 187", label: "Compliant" },
+    { value: "NAIC", label: "Best Interest Compliant" },
+    { value: "SEC", label: "Reg BI Aligned" },
     { value: "100%", label: "Asset Protection" },
-    { value: "Instant", label: "Approval" },
     { value: "Retain", label: "Your Clients" },
   ];
 
@@ -35,7 +35,7 @@ export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
         
         {/* Sub-headline */}
         <p className="text-lg md:text-2xl text-gray-300 mb-10 leading-relaxed max-w-4xl mx-auto font-light">
-          Regulation 187 and Best Interest Standards are clear: <span className="text-white font-semibold">Ignoring the LTC conversation is a liability.</span>
+          NAIC & SEC 'Best Interest' Standards are clear: <span className="text-white font-semibold">Ignoring the LTC conversation is a liability.</span>
           <br className="hidden md:block" />
           <span className="text-gold font-semibold mt-4 block">Turn a compliance headache into your biggest revenue driver.</span>
         </p>
@@ -46,7 +46,7 @@ export const Hero: React.FC<HeroProps> = ({ onCtaClick }) => {
             onClick={onCtaClick}
             className="w-full md:w-auto bg-gold hover:bg-goldHover text-navy text-lg font-extrabold py-5 px-12 rounded-lg shadow-lg shadow-gold/20 transition-all duration-300 transform hover:-translate-y-1 flex items-center justify-center gap-3"
           >
-            Book Strategy Call
+            Secure Your Territory
             <ArrowRight className="w-5 h-5" />
           </button>
           

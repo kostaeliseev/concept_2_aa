@@ -81,7 +81,7 @@ export const Modal: React.FC<ModalProps> = ({ isOpen, onClose }) => {
                     type="submit"
                     className="w-full bg-gold hover:bg-goldHover text-navy font-extrabold py-4 px-6 rounded-lg shadow-lg transition-all transform hover:-translate-y-0.5 mt-2"
                     >
-                    Book Strategy Call
+                    Secure Your Territory
                     </button>
                 </form>
             )}

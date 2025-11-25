@@ -28,7 +28,7 @@ export const Closing: React.FC<ClosingProps> = ({ onCtaClick }) => {
                 onClick={onCtaClick}
                 className="w-full md:w-auto bg-gold hover:bg-goldHover text-navy text-lg font-extrabold py-4 px-10 rounded-lg shadow-glow transition-all transform hover:-translate-y-1 inline-flex items-center justify-center gap-2"
             >
-                Book Strategy Call <ArrowRight size={20} />
+                Bulletproof Your Business <ArrowRight size={20} />
             </button>
             <p className="mt-6 text-xs text-gray-500 uppercase tracking-widest font-semibold">
                 Complimentary Consultation
